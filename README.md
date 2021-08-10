@@ -1,2 +1,2 @@
-# Trybe
+# Trybe Projetos
 Repositorio Trybe
