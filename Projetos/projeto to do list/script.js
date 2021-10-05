@@ -20,9 +20,9 @@ function evento2() {
 // Pìnta de cinza o intem da lista quando o meso é clicado uma vez.
 function paintGrey(item) {
   const itemGrey = item.target;
-  /* if (itemGrey.style.backgroundColor === 'grey') {
+   if (itemGrey.style.backgroundColor === 'grey') {
     itemGrey.style.removeProperty('background-color');
-  } */
+  } 
   for (let i = 0; i < document.getElementsByTagName('li').length; i += 1) {
     document.getElementsByTagName('li')[i].style.removeProperty('background-color');
   }
